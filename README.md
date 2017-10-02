@@ -1,1 +1,3 @@
 # Multiple Servers for Query Authentication and Correction
+
+In the COMS 652 course, we implement a prototype of the system proposed in the paper, [A Parity-Based Data Outsourcing Model for Query Authentication and Correction](http://ieeexplore.ieee.org/document/7536538/). The system simulates the parity-based data outsourcing model. Given a bunch of integers, the DataOwner firstly distributes the data and parity coding to multiple Servers, then the Server answers the query from the Client with result and authentication objects. After receiving the result and authentication objects, the Client is able to verfiy the correctness and the completeness of the result, moreover, if the result is tampered, the Client is also capable to correct the result. 
